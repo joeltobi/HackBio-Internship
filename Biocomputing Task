@@ -17,10 +17,14 @@ Project 1
 
 Project 2
 1. conda activate
+     #These is to activate conda environment
 2. conda create -n funtools
+	 #These is to create 'funtools' in the conda environment
 3. conda activate funtools 
+	 #These is to  activate 'funtools' in the conda environment
 4. conda install figlet
 5. figlet Akinyele oluwatobi Joel 
+	 #This prints my name in a fancy way  
 6. conda install bwa
 7. conda install blast
 8. conda install samtools
