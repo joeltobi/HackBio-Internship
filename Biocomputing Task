@@ -8,7 +8,7 @@ Project 1
 5. mv wildtype.fna \Akinyele\ Oluwatobi\ Joel
 6. rm wildtype.gbk.1
 7. grep tatatata wildtype.fna
-8. grep 'tatatata'  >  mutant.fna
+8. grep tatatata wildtype.fna > mutant.fna
 9. wc -l wild type.gbk
 10. awk '/^LOCUS/ {print $1}' wildtype.gbk
 11. awk '/^SOURCE/ {print $2,$3}' wildtype.gbk
