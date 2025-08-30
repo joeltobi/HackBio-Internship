@@ -9,7 +9,7 @@ Project 1
 6. rm wildtype.gbk.1
 7. grep tatatata wildtype.fna
 8. grep tatatata wildtype.fna > mutant.fna
-9. wc -l wild type.gbk
+9. wc -l wildtype.gbk
 10. awk '/^LOCUS/ {print $1}' wildtype.gbk
 11. awk '/^SOURCE/ {print $2,$3}' wildtype.gbk
 13. clear | history
