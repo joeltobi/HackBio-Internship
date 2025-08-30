@@ -11,19 +11,12 @@ Project 1
 8. grep tatatata wildtype.fna > mutant.fna
 9. wc -l wildtype.gbk
 10. awk '/^LOCUS/ {print $1}' wildtype.gbk
-11. awk '/^SOURCE/ {print $2,$3}' wildtype.gbk
+11. grep 'SOURCE' wildtype.gbk 
 12. grep '/gene=' wildtype.gbk
 13. clear | history
 14. ls
 
 Project 2
-
-#Download the installation file
-https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-
-#Install miniconda
-sudo apt install Miniconda3-latest-Linux-x86_64.sh
-
 1. conda activate
      #These is to activate conda environment
 2. conda create -n funtools
