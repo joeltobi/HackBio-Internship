@@ -12,6 +12,7 @@ Project 1
 9. wc -l wildtype.gbk
 10. awk '/^LOCUS/ {print $1}' wildtype.gbk
 11. awk '/^SOURCE/ {print $2,$3}' wildtype.gbk
+12. grep '/gene=' wildtype.gbk
 13. clear | history
 14. ls
 
