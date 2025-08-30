@@ -1,11 +1,11 @@
 Project 1
 1. echo Akinyele oluwatobi Joel 
-2. mkdir Akinyele\ Oluwatobi\ Joel
+2. mkdir Akinyele
 3. mkdir biocomputing && cd biocomputing 
 4. wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna
    wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
    wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
-5. mv wildtype.fna \Akinyele\ Oluwatobi\ Joel
+5. mv wildtype.fna Akinyele
 6. rm wildtype.gbk.1
 7. grep tatatata wildtype.fna
 8. grep tatatata wildtype.fna > mutant.fna
