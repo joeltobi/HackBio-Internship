@@ -6,12 +6,12 @@ Project 1
    wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
    wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
 5. mv wildtype.fna \Akinyele\ Oluwatobi\ Joel
-6. rm -r wildtype.gbk.1
-7. mutant
+6. rm wildtype.gbk.1
+7. grep tatatata wildtype.fna
 8. grep 'tatatata'  >  mutant.fna
 9. wc -l wild type.gbk
-10. awk '/^LOCUS/ {print $1}' wildtype.gbk.1 
-11. awk '/^SOURCE/ {print $2,$3}' wildtype.gbk.1 
+10. awk '/^LOCUS/ {print $1}' wildtype.gbk
+11. awk '/^SOURCE/ {print $2,$3}' wildtype.gbk
 13. clear | history
 14. ls
 
