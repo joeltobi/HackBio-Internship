@@ -1,0 +1,31 @@
+Project 1
+1. echo Akinyele oluwatobi Joel 
+2. mkdir Akinyele\ Oluwatobi\ Joel
+3. mkdir biocomputing && cd biocomputing 
+4. wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna
+   wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
+   wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
+5. mv wildtype.fna \Akinyele\ Oluwatobi\ Joel
+6. rm -r wildtype.gbk.1
+7. mutant
+8. grep 'tatatata'  >  mutant.fna
+9. wc -l wild type.gbk
+10. awk '/^LOCUS/ {print $1}' wildtype.gbk.1 
+11. awk '/^SOURCE/ {print $2,$3}' wildtype.gbk.1 
+13. clear | history
+14. ls
+
+Project 2
+1. conda activate
+2. conda create -n funtools
+3. conda activate funtools 
+4. conda install figlet
+5. figlet Akinyele oluwatobi Joel 
+6. conda install bwa
+7. conda install blast
+8. conda install samtools
+9. conda install bedtools
+10. conda install spades.py
+11. conda install bcftools
+12. conda install fastp
+13. conda install multiqc
