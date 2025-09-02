@@ -32,11 +32,5 @@ Project 2
 4. conda install figlet
 5. figlet Akinyele oluwatobi Joel 
 	 #This prints my name in a fancy way  
-6. conda install bwa
-7. conda install blast
-8. conda install samtools
-9. conda install bedtools
-10. conda install spades.py
-11. conda install bcftools
-12. conda install fastp
-13. conda install multiqc
+#install all packages using conda using bioconda channel
+6. conda install -c bioconda bwa blast samtools bedtools spades.py bcftools fastp multiqc 
